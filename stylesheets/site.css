@@ -1,48 +1,4 @@
-body{
+body {
   background-color: #008cff;
   color:white;
-  /*not allow selecting*/
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Chrome/Safari/Opera */
-    -khtml-user-select: none; /* Konqueror */
-      -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-          user-select: none; /* Non-prefixed version, currently
-                                not supported by any browser */
-
-}
-
-.content {
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-bottom:100px;
-}
-
-.title {
-  font-weight: bold;
-  font-size:48px;
-}
-
-.desc{
-  padding-top: 10px;
-  padding-bottom: 20px;
-  margin-left: 50px;
-  font-size:18px;
-}
-
-.list {
-  font-size: 20px;
-}
-
-/*Not allow to link in site*/
-a {
- color: white;
- text-decoration: none;
- font-weight: 500;
-}
-
-#smile{
-  width:200px;
-  height:200px;
-  position: relative;
 }
