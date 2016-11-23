@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "KoPubDotumLight";
+    src: url('fonts/KoPubDotumLight.ttf') format('truetype');
+}
+
+body{
+  background-color: #008cff;
+  color:white;
+  font-family: "KoPubDotumLight";
+  /*not allow selecting*/
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+      -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                not supported by any browser */
+
+}
+
+.copyright{
+  text-align: center;
+  position: relative;
+}
+
+/*Not allow to link in site*/
+a {
+ color: white;
+ text-decoration: none;
+ font-weight: 500;
+}
+
+ul {
+  margin-left: 20px
+}
