@@ -80,15 +80,18 @@ body{
 
 .icon li {
 	display: inline-block;
-	margin-left: 3px;
-	margin-right: 3px;
+	margin-left: 2px;
+	margin-right: 2px;
 }
+
 .lcon li:first-child {
 	margin-left: 0;
 }
+
 .lcon li:last-child {
 	margin-right: 0;
 }
+
 .icons {
   width:32px;
   height:32px;
