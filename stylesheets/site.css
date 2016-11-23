@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "KoPubDotumLight";
+    src: url('fonts/KoPubDotumLight.ttf') format('truetype');
+}
+
 body{
   background-color: #008cff;
   color:white;
+  font-family: "KoPubDotumLight";
   /*not allow selecting*/
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
@@ -13,8 +19,8 @@ body{
 }
 
 .content {
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 90px;
+  margin-left: 90px;
   margin-bottom:100px;
 }
 
@@ -25,13 +31,67 @@ body{
 
 .desc{
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom:10px;
   margin-left: 50px;
   font-size:18px;
 }
 
-.list {
+.copyright{
+  text-align: center;
+  position: relative;
+}
+
+/* lists */
+
+.links {
   font-size: 20px;
+  margin-left: none;
+}
+
+.links li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.links li:first-child {
+	margin-left: 0;
+}
+.links li:last-child {
+	margin-right: 0;
+}
+
+.links li a {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+}
+.links li a:hover {
+	text-decoration: underline;
+}
+
+
+/* icon li */
+
+.icon {
+  font-size: 20px;
+  margin-left: none;
+}
+
+.icon li {
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.lcon li:first-child {
+	margin-left: 0;
+}
+.lcon li:last-child {
+	margin-right: 0;
+}
+.icons {
+  width:32px;
+  height:32px;
 }
 
 /*Not allow to link in site*/
