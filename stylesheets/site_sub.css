@@ -1,12 +1,8 @@
-@font-face {
-    font-family: "KoPubDotumLight";
-    src: url('fonts/KoPubDotumLight.ttf') format('truetype');
-}
-
 body{
   background-color: #008cff;
   color:white;
-  font-family: "KoPubDotumLight";
+  font-family:'Malgun Gothic', 'Calibri' !important;
+
   /*not allow selecting*/
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */

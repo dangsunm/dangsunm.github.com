@@ -1,12 +1,22 @@
+@charset "utf-8";
+
+/*
 @font-face {
-    font-family: "KoPubDotumLight";
-    src: url('fonts/KoPubDotumLight.ttf') format('truetype');
+font-family: "KoPubDotum"; 폰트 패밀리 이름 주
+src: url('fonts/KoPubDotumBold.ttf') format('truetype'); 폰트 파일 주소
 }
+
+pre{  위에서 font-face로 지정해놓은 font-family를 적용
+font-family:"KoPubDotum" !important;
+}
+*/
 
 body{
   background-color: #008cff;
   color:white;
-  font-family: "KoPubDotumLight";
+  /*font-family: 'Malgun Gothic', 'Calibri', sans-serif;*/
+  font-family:'Malgun Gothic', 'Calibri' !important;
+
   /*not allow selecting*/
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
