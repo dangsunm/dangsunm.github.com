@@ -24,6 +24,11 @@ body{
 
 }
 
+a {
+	color: #373a37;
+	text-decoration: none;
+}
+
 /*이미지 헤더 부분*/
 .img_header{
   text-align: center;
