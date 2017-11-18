@@ -228,7 +228,6 @@ section {
     nav ul li.active a,
     nav ul li a:hover {
         border:none;
-
     }
     #pull {
         display: block;
