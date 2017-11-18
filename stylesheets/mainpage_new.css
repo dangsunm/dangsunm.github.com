@@ -79,3 +79,31 @@ a {
   width:24px;
   height:24px;
 }
+
+/* lists */
+
+.sidebar {
+  font-size: 20px;
+  margin-left: none;
+}
+
+.sidebar li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.sidebar li:first-child {
+	margin-left: 0;
+}
+.sidebar li:last-child {
+	margin-right: 0;
+}
+
+.sidebar li a {
+	text-decoration: none;
+	font-weight: 300;
+}
+.sidebar li a:hover {
+	text-decoration: underline;
+}
