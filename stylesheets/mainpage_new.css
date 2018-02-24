@@ -100,24 +100,26 @@ section {
 
 
 /*이미지 헤더 부분*/
-.img_header{
+
+#img_header{
   text-align: center;
   background-color: #d4d9d4;
-    margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 .img_inside{
   position: relative;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom:0px;
-  width: 70%
-
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:1px;
+  margin-bottom: 1px;
+  width:75%;
+  height:auto;
 }
 
 
 /* 맨 아래 부분 */
-.below{
+footer{
   text-align: center;
   position: relative;
 }
