@@ -7,56 +7,120 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/mainpage_new.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/header.css">
+    <link rel="stylesheet" href="stylesheets/responsive.css">
 
     <!-- GOOGLE FONTS -->
   	<link href='https://fonts.googleapis.com/css?family=Raleway:700,400,400italic,500' rel='stylesheet' type='text/css'>
   	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300,300italic' rel='stylesheet' type='text/css'>
 
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="stylesheets/theme.css" id="style_color">
+
     <!--SCRIPTS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 
   </head>
+
   <body>
 
-    <!--네비게이션 상단바-->
-    <header>
-			<div class="wrap">
-				<nav>
-					<ul id="top-menu">
-            <li><a href='index.html'>Home</a></li>
-            <li><a href='/bio'>Bio</a></li>
-            <li><a href='/photo'>Photo</a></li>
-            <li><a href='http://blog.youngjinko.me'>Blog</a></li>
-            <li><a href="javascript:window.open('/email','mypopuptitle','width=600,height=400')">Email</a></li>
-					</ul>
-					<div id="pull">
-				        <span class="btn">Menu</span>
-				   </div>
-				</nav>
-			</div>
-		</header>
+<!--=== Menu ===-->
+<div class="header">
+  <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+      <!--
+              <a class="navbar-brand" href="index.html">
+                  <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo">
+              </a>
+      -->
+      <h2>Youngjin Ko</h2>
+          </div>
 
-    <!-- 메인 사진-->
-    <div id="img_header">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#home" data-id="home">Home</a></li>
+                  <li><a href="/Bio" data-id="about">About</a></li>
+                  <li><a href="/Photo" data-id="photo">Photography</a></li>
+                  <li><a href="http://blog.youngjinko.me" data-id="blog" target="_blank">blog</a></li>
+                  <li><a href="javascript:window.open('/email','mypopuptitle','width=600,height=400')" data-id="email" >Email</a></li>
+              </ul>
+      <!--
+              <div class="search-open">
+                  <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <span class="input-group-btn">
+                          <button class="btn-u" type="button">Go</button>
+                      </span>
+                  </div>
+              </div>
+      -->
+          </div><!-- /navbar-collapse -->
+
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+    <!--
+          <div class="collapse navbar-collapse navbar-responsive-collapse">
+              <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown active"><a href="index.php" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Home</a></li>
+        <li class="dropdown"><a href="/Bio" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">About/a></li>
+        <li class="dropdown"><a href="/Photo"  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Photography</a></li>
+        <li class="dropdown"><a href="http://blog.youngjinko.me" data-id="blog" target="_blank" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Blog</a></li>
+            </ul>
+
+              <div class="search-open">
+                  <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <span class="input-group-btn">
+                          <button class="btn-u" type="button">Go</button>
+                      </span>
+                  </div>
+              </div>
+
+          </div>
+    -->
+
+
+      </div>
+  </div>
+</div><!--/header-->
+<!--=== End Menu ===-->
+
+
+  <!-- 메인 사진-->
+  <div id="img_header">
     <img class="img_inside" src='images/1.png'/>
   </div>
 
-    <!-- 소셜 미디어 아이콘-->
-    <footer>
-    <div class="copyright">
-        <p> ⓒ 2015-2018 Youngjin Ko, All rights Reserved. | <a href="javascript:window.open('email/index.html','mypopuptitle','width=600,height=400')">Contact</a></p>
-    </div>
-    <div class = "icon">
-      <ul>
-      <li><a href='http://twitter.com/youngjinko_me' target="_blank" ><img class="icons" src='images/icons/twitter.png'/></a></li>
-      <li><a href='http://facebook.com/youngjinko.me' target="_blank" ><img class="icons" src='images/icons/facebook.png'/></a></li>
-      <li><a href='http://instagram.com/youngjinko' target="_blank" ><img class="icons" src='images/icons/instagram.png'/></a></li>
-      <li><a href='http://youtube.com/dangsunm' target="_blank" ><img class="icons" src='images/icons/youtube.png'/></a></li>
-      <li><a href='http://flickr.com/dangsunm' target="_blank" ><img class="icons" src='images/icons/flickr.png'/></a></li>
-      </ul>
+  <footer>
+    <div id="foot-body">
+      <div id="copyright">
+        <p>ⓒ 2015-2018 Youngjin Ko, All rights Reserved. | <a href="javascript:window.open('email/index.html','mypopuptitle','width=600,height=400')">Contact</a> </p>
       </div>
-    </footer>
 
+      <div id="icons">
+        <div class = "icon">
+          <ul>
+            <li><a href='http://twitter.com/youngjinko_me' target="_blank" ><img class="icons" src='images/icons/twitter.png'/></a></li>
+            <li><a href='http://facebook.com/youngjinko.me' target="_blank" ><img class="icons" src='images/icons/facebook.png'/></a></li>
+            <li><a href='http://instagram.com/youngjinko' target="_blank" ><img class="icons" src='images/icons/instagram.png'/></a></li>
+            <li><a href='http://youtube.com/dangsunm' target="_blank" ><img class="icons" src='images/icons/youtube.png'/></a></li>
+            <li><a href='http://flickr.com/dangsunm' target="_blank" ><img class="icons" src='images/icons/flickr.png'/></a></li>
+          </ul>
+        </div>
+    </div>
+  </footer>
   </body>
 </html>
