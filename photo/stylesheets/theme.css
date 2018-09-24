@@ -1,0 +1,406 @@
+a:focus,
+a:hover,
+a:active {
+	color: #47cbe5;
+}
+
+.color {
+	color: #47cbe5;
+}
+
+a.read-more:hover {
+	color:#47cbe5;
+}
+
+.linked:hover {
+	color:#47cbe5;
+}
+
+/*Sliders
+------------------------------------*/
+/*Main Parallax Sldier*/
+.da-slide h2 i {
+	background:url(../../plugins/parallax-slider/img/bg-heading.png) repeat;
+}
+
+/*Sequence Parallax Sldier*/
+.sequence-inner {
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#defce7));
+  background: -webkit-linear-gradient(#fff, #defce7);
+  background: -moz-linear-gradient(#fff, #defce7);
+  background: -ms-linear-gradient(#fff, #defce7);
+  background: -o-linear-gradient(#fff, #defce7);
+  background: linear-gradient(#fff, #defce7)
+}
+
+#sequence-theme h2 {
+	background:rgba(114, 192, 44, 0.8);
+}
+
+#sequence-theme .info p {
+	background:rgba(114, 192, 44, 0.8);
+}
+
+
+/*Service
+------------------------------------*/
+.service .service-icon {
+	color:#47cbe5;
+}
+
+/*Service Blocks*/
+.service-alternative .service:hover {
+	background:#47cbe5;
+}
+
+/*Thumbnail (Recent Work)
+------------------------------------*/
+.thumbnail-style h3 a:hover {
+	color:#47cbe5;
+}
+
+.thumbnail-style a.btn-more {
+	background:#47cbe5;
+}
+.thumbnail-style a.btn-more:hover {
+	box-shadow:0 0 0 2px #5fb611;
+}
+
+/*Carousel (Recent Work)*/
+.recent-work a:hover span {
+	border-bottom:solid 2px #47cbe5;
+}
+
+.bx-wrapper .bx-prev {
+	background-image: url(../../plugins/bxslider/images/controls.png);
+}
+.bx-wrapper .bx-next {
+	background-image: url(../../plugins/bxslider/images/controls.png);
+}
+
+/*Typography
+------------------------------------*/
+/*Heading*/
+.headline h2,
+.headline h3,
+.headline h4 {
+	border-bottom:2px solid #47cbe5;
+}
+
+/*Blockquote*/
+blockquote:hover {
+	border-left-color:#47cbe5;
+}
+
+.hero {
+	border-left-color: #47cbe5;
+}
+
+/*Carousel
+------------------------------------*/
+.carousel-arrow a.carousel-control:hover {
+	color: #47cbe5;
+}
+
+/*Footer
+------------------------------------*/
+.footer a,
+.copyright a,
+.footer a:hover,
+.copyright a:hover {
+	color: #47cbe5;
+}
+
+
+/*Tabs
+------------------------------------*/
+/*Tabs v1*/
+.tab-v1 .nav-tabs {
+	border-bottom: solid 2px #47cbe5;
+}
+
+.tab-v1 .nav-tabs > .active > a,
+.tab-v1 .nav-tabs > .active > a:hover,
+.tab-v1 .nav-tabs > .active > a:focus {
+	background: #47cbe5;
+}
+
+.tab-v1 .nav-tabs > li > a:hover {
+	background: #47cbe5;
+}
+
+/*Tabs v2*/
+.tab-v2 .nav-tabs li.active a {
+	border-top: solid 2px #47cbe5;
+}
+
+/*Tabs v3*/
+.tab-v3 .nav-pills li a:hover,
+.tab-v3 .nav-pills li.active a {
+	background: #47cbe5;
+	border: solid 1px #5fb611;
+}
+
+/*Accardion
+------------------------------------*/
+.acc-home a.active,
+.acc-home a.accordion-toggle:hover {
+	color:#47cbe5;
+}
+.acc-home .collapse.in {
+	border-bottom:solid 1px #47cbe5;
+}
+
+/*Testimonials
+------------------------------------*/
+.testimonials .testimonial-info {
+	color: #47cbe5;
+}
+
+.testimonials .carousel-arrow i:hover {
+	background: #47cbe5;
+}
+
+/*Info Blocks
+------------------------------------*/
+.info-blocks:hover i.icon-info-blocks {
+	color: #47cbe5;
+}
+
+/*Breadcrumb
+------------------------------------*/
+.breadcrumb li.active,
+.breadcrumb li a:hover {
+	color:#47cbe5;
+}
+
+/*About Page
+------------------------------------*/
+.team .thumbnail-style:hover h3 a {
+	color:#47cbe5 !important;
+}
+
+/*Social Icons*/
+.team ul.team-socail li i:hover {
+	background: #47cbe5;
+}
+
+/*Pricing Page
+------------------------------------*/
+/*Pricing Head*/
+.pricing:hover h4 {
+	color:#55c931;
+}
+
+.pricing-head h3 {
+	background:#55c931;
+	text-shadow:0 1px 0 #32a20f;
+	border-bottom:solid 1px #41b91c;
+}
+.pricing-head h4 {
+	color:#999;
+	background:#fbfef2;
+	border-bottom:solid 1px #f5f9e7;
+}
+
+/*Pricing Content*/
+.pricing-content li {
+	border-bottom:solid 1px #f5f9e7;
+}
+.pricing-content li i {
+	color:#47cbe5;
+}
+
+/*Pricing Footer*/
+.pricing-footer a,
+.pricing-footer button {
+	background:#47cbe5;
+	text-shadow:0 1px 0 #38b312;
+	border-bottom:solid 2px #41b91c;
+}
+.pricing-footer a:hover,
+.pricing-footer button:hover {
+	background:#40ba1a;
+}
+
+/*Priceing Active*/
+.price-active h4 {
+	color:#55c931;
+}
+
+.no-space-pricing .price-active .pricing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+	color:#55c931;
+}
+
+/*Right Sidebar
+------------------------------------*/
+/*Right Sidebar*/
+.who li i,
+.who li:hover i,
+.who li:hover a {
+	color:#47cbe5;
+}
+
+/*Privacy Page
+------------------------------------*/
+.privacy a:hover {
+	color:#47cbe5;
+}
+
+/*Portfolio Page
+------------------------------------*/
+/*Portfolio v1*/
+.view a.info:hover {
+	background: #47cbe5;
+}
+
+/*Portfolio v2*/
+.sorting-block .sorting-nav li.active {
+	color: #47cbe5;
+	border-bottom: solid 1px #47cbe5;
+}
+
+.sorting-block .sorting-grid li a:hover span.sorting-cover {
+	background: #47cbe5;
+}
+
+/*Blog Page
+------------------------------------*/
+.blog h3 {
+	color:#47cbe5;
+}
+.blog li a:hover {
+	color:#47cbe5;
+}
+
+/*Blog Tags*/
+ul.blog-tags a:hover {
+	background: #47cbe5;
+}
+
+.blog-post-tags ul.blog-tags a:hover {
+    background: none repeat scroll 0 0 #47cbe5;
+}
+
+/*Blog Photos*/
+.blog-photos li img:hover {
+	box-shadow: 0 0 0 2px #47cbe5;
+}
+
+/*Blog Latest Tweets*/
+.blog-twitter .blog-twitter-inner:hover {
+	border-color: #47cbe5;
+	border-top-color: #47cbe5;
+}
+.blog-twitter .blog-twitter-inner:hover:after {
+	border-top-color: #47cbe5;
+}
+
+.blog-twitter .blog-twitter-inner a {
+	color: #47cbe5;
+}
+
+/*Blog Item Page
+------------------------------------*/
+.blog-item h4.media-heading span a {
+	color:#47cbe5;
+}
+
+/*Coming Soon Page
+------------------------------------*/
+.coming-soon-border {
+	border-top: solid 3px #47cbe5;
+}
+
+/*Search Page
+------------------------------------*/
+.booking-blocks p a {
+	color: #47cbe5;
+}
+
+/*Icons Page
+------------------------------------*/
+.icon-page li:hover {
+	color:#47cbe5;
+}
+
+/*Glyphicons*/
+.glyphicons-demo a:hover {
+	color: #47cbe5;
+	text-decoration: none;
+}
+
+/*Magazine Page
+------------------------------------*/
+/*Magazine News*/
+.magazine-news .by-author strong {
+	color: #47cbe5;
+}
+
+.magazine-news a.read-more {
+	color: #47cbe5;
+}
+
+/*Magazine Mini News*/
+.magazine-mini-news .post-author strong {
+	color: #47cbe5;
+}
+
+.news-read-more i {
+	background: #47cbe5;
+}
+
+/*Sidebar Features*/
+.magazine-page h3 a:hover {
+	color: #47cbe5;
+}
+
+/*Page Features
+------------------------------------*/
+/*Tag Boxes v1*/
+.tag-box-v1 {
+	border-top: solid 2px #47cbe5;
+}
+
+/*Tag Boxes v2*/
+.tag-box-v2 {
+	border-left: solid 2px #47cbe5;
+}
+
+/*Tag Boxes v7*/
+.tag-box-v7 {
+	border-bottom: solid 2px #47cbe5;
+}
+
+/*Font Awesome Icon Page Style*/
+.fa-icons li:hover {
+   color: #47cbe5;
+}
+
+.fa-icons li:hover i {
+   background: #47cbe5;
+}
+
+/*GLYPHICONS Icons Page Style*/
+.bs-glyphicons li:hover {
+   color: #47cbe5;
+}
+
+/*Navigation
+------------------------------------*/
+/*Pagination*/
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+   background-color: #47cbe5;
+   border-color: #47cbe5;
+}
+
+.pagination li a:hover {
+   background: #5fb611;
+   border-color: #5fb611;
+}

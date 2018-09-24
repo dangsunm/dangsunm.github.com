@@ -45,20 +45,20 @@ a.read-more:hover {
 ------------------------------------*/
 .purchase a.btn-buy {
 	background:#47cbe5;
-	text-shadow:0 1px 0 #5fb611;
+	text-shadow:0 1px 0 #3799ad;
 }
 .purchase a.btn-buy:hover {
-	background:#5fb611;
+	background:#3799ad;
 }
 
 /*Buttons
 ------------------------------------*/
 .btn-u {
-	background: #47cbe5;
+	background: #3799ad;
 }
 
 .btn-u:hover {
-	background: #5fb611;
+	background: #3799ad;
 }
 
 /*Service
