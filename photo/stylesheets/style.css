@@ -164,3 +164,40 @@ footer{
 .sidebar li a:hover {
 	text-decoration: underline;
 }
+
+
+section {
+					float:left;
+					width:580px;
+					padding:5px;
+				}
+section article{
+					float:left;
+					margin:5px;
+					padding:10px;
+					border:1px solid #ccc;}
+
+.at1, .at2, .at3, .at4 {
+  transition:2s;
+  -webkit-transition:2s;
+  -moz-transition:2s;
+  -o-transition:2s;
+  -ms-transition:2s;
+}
+
+.at1:hover{
+  background-color:#cf9;
+  border:1px solid green;
+}
+.at2:hover{
+  background-color:#a2d0ff;
+  border:1px solid blue;
+}
+.at3:hover{
+  background-color:#ebcbfe;
+  border:1px solid purple;
+}
+.at4:hover{
+  background-color:#fc3;
+  border:1px solid red;
+}
