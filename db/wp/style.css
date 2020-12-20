@@ -1,0 +1,60 @@
+.contentsContainer{
+    padding: 0.2em;
+    margin-bottom: 1em;
+    width:30%;
+}
+
+.contentsList{
+    border: 1px solid #6E6E6E;
+}
+
+.bodyContainer{
+    padding: 1em;
+}
+
+.Container-title{
+    font-size: 1.4em;  
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+
+.headContainer{
+    border: 2px solid #6E6E6E;
+    padding: 1.0em;
+}
+
+.Container-Subject{
+    border: 1.2px solid #6E6E6E;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding: 1.2em;
+    border-left: 6px solid #0080FF;
+}
+
+.replyBtn{
+    text-align: right;
+    margin-right: 1.4em;
+}
+
+.Container-bottom{
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.s1{
+    margin-left: 1.0em;
+    border-left: 6px solid #04B404;
+}
+
+.s2{
+    margin-left: 2.4em;
+}
+
+.s3{
+    margin-left: 3.6em;
+}
+
+.s4{
+    margin-left: 4.8em;
+}
